@@ -38,8 +38,8 @@ body{
 }
 .items span.active,
 .items span:hover{
-  color: #fff;
-  background: #007bff;
+  color:black;
+  background:red;
 }
 
 .gallery{
