@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Image Gallery | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="bag">Bag</span>
+        <span class="item" data-name="shoe">Shoe</span>
+        <span class="item" data-name="watch">Watch</span>
+        <span class="item" data-name="camera">Camera</span>
+        <span class="item" data-name="headphone">Headphone</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="bag"><span><img src="https://static.vecteezy.com/system/resources/thumbnails/020/221/141/small/1514-blue-bag-isolated-on-a-transparent-background-photo.jpg" alt=""></span></div>
+      <div class="image" data-name="headphone"><span><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lfGVufDB8fDB8fHww&w=1000&q=80" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="https://img.freepik.com/premium-vector/slr-camera-tshirt-print-hand-drawn-dketch-vector-illustration_460848-14418.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="https://image.shutterstock.com/image-photo/stability-cushion-running-shoes-new-260nw-1958445436.jpg" alt=""></span></div>
+      <div class="image" data-name="headphone"><span><img src="https://images.macrumors.com/t/Xli73M4hhPje3C5CeyhH1Z_c2Ro=/800x0/smart/article-new/2018/02/airpods-3.jpg?lossy" alt=""></span></div>
+      <div class="image" data-name="watch"><span><img src="https://cdn.anscommerce.com/catalog/brandstore/johnson/17_7_20/Sale.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.webp?b=1&s=170667a&w=0&k=20&c=liUSgX6SafJ7HWvefFqR9-pnf3KuH6v1lwQ6iEpePWc=" alt=""></span></div>
+      <div class="image" data-name="camera"><span><img src="https://media.istockphoto.com/id/618066222/photo/camera-capturing-a-forest.jpg?s=612x612&w=0&k=20&c=Mqr3fFI2QPY09_bu3GyRYJvcdwBO2qeHPT88GFsLTS4=" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
